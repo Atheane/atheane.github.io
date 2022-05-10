@@ -56,11 +56,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/website.loader.js";
+      var loaderUrl = buildUrl + "/build-webgl.loader.js";
       var config = {
-        dataUrl: buildUrl + "/website.data.unityweb",
-        frameworkUrl: buildUrl + "/website.framework.js.unityweb",
-        codeUrl: buildUrl + "/website.wasm.unityweb",
+        dataUrl: buildUrl + "/build-webgl.data.unityweb",
+        frameworkUrl: buildUrl + "/build-webgl.framework.js.unityweb",
+        codeUrl: buildUrl + "/build-webgl.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "ElodieRoyant",
@@ -99,7 +99,7 @@
         canvas.style.height = "1600px";
       }
 
-      canvas.style.background = "url('" + buildUrl + "/website.jpg.unityweb') center / cover";
+      canvas.style.background = "url('" + buildUrl + "/build-webgl.jpg.unityweb') center / cover";
       loadingBar.style.display = "block";
 
       var script = document.createElement("script");
