@@ -60,3 +60,8 @@ crashlytics-build.properties
 
 .DS_Store
 
+._.git
+._.gitignore
+._content
+._LICENSE
+._website
